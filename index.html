@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Anil Jhanwar - AI, Banking AI & Agentic AI Consultant</title>
+<link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -213,6 +214,7 @@
     position: relative;
     transition: transform 0.2s;
   }
+  .project-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .project-card:hover { transform: translateY(-3px); }
   .project-num {
     font-family: 'DM Mono', monospace;
@@ -431,6 +433,7 @@
     .hero-right { min-height: 400px; }
     section { padding: 4rem 2rem; }
     .project-grid { grid-template-columns: 1fr; }
+    .project-card:last-child:nth-child(odd) { grid-column: auto; }
     .impact-grid { grid-template-columns: 1fr 1fr; }
     .skills-grid { grid-template-columns: 1fr; }
     .exp-item { grid-template-columns: 1fr; gap: 0.75rem; }
@@ -467,7 +470,7 @@
       <div class="stat-cell">
         <div class="stat-num">15+</div>
         <div class="stat-label">Years in AI & Data Science</div>
-        <div class="stat-sub">IIT ROORKEE Â· CMU</div>
+        <div class="stat-sub">IIT ROORKEE · CMU</div>
       </div>
       <div class="stat-cell">
         <div class="stat-num">$10M+</div>
@@ -476,11 +479,11 @@
       </div>
       <div class="stat-cell">
         <div class="stat-num">0.708</div>
-        <div class="stat-label">Gini â€” live scorecard model</div>
-        <div class="stat-sub">EXCELLENT GRADE Â· OOT VALIDATED</div>
+        <div class="stat-label">Gini — live scorecard model</div>
+        <div class="stat-sub">EXCELLENT GRADE · OOT VALIDATED</div>
       </div>
       <div class="stat-cell">
-        <div class="stat-num">4</div>
+        <div class="stat-num">5</div>
         <div class="stat-label">Open source AI projects</div>
         <div class="stat-sub">ML · GENAI · AGENTIC AI</div>
       </div>
@@ -492,28 +495,28 @@
 <section class="projects" id="projects">
   <div class="section-tag">Open Source Work</div>
   <h2>Production-grade<br>AI systems</h2>
-  <p class="section-intro">Practical open-source projects across credit risk, fraud, collections, and Agentic AI. Built to show how models, workflows, controls, and business outcomes connect.</p>
+  <p class="section-intro">Practical open-source projects across credit risk, fraud, collections, policy RAG, and Agentic AI. Built to show how models, workflows, controls, and business outcomes connect.</p>
 
   <div class="project-grid">
 
     <!-- Project 1 -->
     <div class="project-card">
-      <div class="project-num">01 / 04</div>
-      <div class="project-icon">ðŸ“Š</div>
+      <div class="project-num">01 / 05</div>
+      <div class="project-icon">📊</div>
       <h3>Credit Risk Scorecard</h3>
       <p class="project-desc">End-to-end credit application scoring pipeline. WOE binning, champion/challenger framework, FICO-style point scaling, MRM-ready documentation. Trained on 150K rows.</p>
       <div class="project-metrics">
         <div class="metric-row">
           <span class="metric-key">GINI (OOT)</span>
-          <span class="metric-val">0.708 â€” Excellent</span>
+          <span class="metric-val">0.708 — Excellent</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">KS STATISTIC</span>
-          <span class="metric-val">0.554 â€” Good</span>
+          <span class="metric-val">0.554 — Good</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">PSI (STABILITY)</span>
-          <span class="metric-val">0.0004 â€” Stable</span>
+          <span class="metric-val">0.0004 — Stable</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">DECILE 1 LIFT</span>
@@ -527,27 +530,27 @@
         <span class="tag">MRM</span>
         <span class="tag">Python</span>
       </div>
-      <a href="https://github.com/anil10iitr/credit-risk-scorecard" class="project-link" target="_blank">View on GitHub â†’</a>
+      <a href="https://github.com/anil10iitr/credit-risk-scorecard" class="project-link" target="_blank">View on GitHub →</a>
     </div>
 
     <!-- Project 2 -->
     <div class="project-card">
-      <div class="project-num">02 / 04</div>
-      <div class="project-icon">ðŸ”</div>
+      <div class="project-num">02 / 05</div>
+      <div class="project-icon">🔍</div>
       <h3>Fraud Detection ML</h3>
       <p class="project-desc">Recall-optimized fraud model for credit card transactions. Device fingerprint engineering, velocity features, XGBoost + LightGBM ensemble, cost-based threshold optimization.</p>
       <div class="project-metrics">
         <div class="metric-row">
           <span class="metric-key">AUC-ROC</span>
-          <span class="metric-val">0.879 â€” Excellent</span>
+          <span class="metric-val">0.879 — Excellent</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">RECALL</span>
-          <span class="metric-val">79.4% â€” catches 8/10 frauds</span>
+          <span class="metric-val">79.4% — catches 8/10 frauds</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">RECALL @ 5% FPR</span>
-          <span class="metric-val">59.7% â€” cost-optimized</span>
+          <span class="metric-val">59.7% — cost-optimized</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">COST SAVING</span>
@@ -561,31 +564,31 @@
         <span class="tag">FastAPI</span>
         <span class="tag">Python</span>
       </div>
-      <a href="https://github.com/anil10iitr/fraud-detection-ml" class="project-link" target="_blank">View on GitHub â†’</a>
+      <a href="https://github.com/anil10iitr/fraud-detection-ml" class="project-link" target="_blank">View on GitHub →</a>
     </div>
 
     <!-- Project 3 -->
     <div class="project-card">
-      <div class="project-num">03 / 04</div>
-      <div class="project-icon">ðŸ¤–</div>
+      <div class="project-num">03 / 05</div>
+      <div class="project-icon">🤖</div>
       <h3>LLM Collections Agent</h3>
       <p class="project-desc">Production AI voice agent for loan recovery. LangChain dialogue management, ML risk segmentation, Whisper STT, ElevenLabs TTS, FDCPA-compliant guardrails. Deployed at Large Southeast Asia Fintech.</p>
       <div class="project-metrics">
         <div class="metric-row">
           <span class="metric-key">BUSINESS IMPACT</span>
-          <span class="metric-val">$4M Â· Q1 2026</span>
+          <span class="metric-val">$4M · Q1 2026</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">COST REDUCTION</span>
-          <span class="metric-val">97% Â· $4.50 â†’ $0.12</span>
+          <span class="metric-val">97% · $4.50 → $0.12</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">COMPLIANCE RATE</span>
-          <span class="metric-val">100% Â· 30/30 tests passed</span>
+          <span class="metric-val">100% · 30/30 tests passed</span>
         </div>
         <div class="metric-row">
           <span class="metric-key">SCALE</span>
-          <span class="metric-val">62x Â· 80 â†’ 5,000 calls/day</span>
+          <span class="metric-val">62x · 80 → 5,000 calls/day</span>
         </div>
       </div>
       <div class="project-tags">
@@ -595,12 +598,46 @@
         <span class="tag">Twilio</span>
         <span class="tag">FastAPI</span>
       </div>
-      <a href="https://github.com/anil10iitr/llm-collections-agent" class="project-link" target="_blank">View on GitHub â†’</a>
+      <a href="https://github.com/anil10iitr/llm-collections-agent" class="project-link" target="_blank">View on GitHub →</a>
     </div>
 
     <!-- Project 4 -->
     <div class="project-card">
-      <div class="project-num">04 / 04</div>
+      <div class="project-num">04 / 05</div>
+      <div class="project-icon">RAG</div>
+      <h3>FSI Policy & Compliance RAG Agent</h3>
+      <p class="project-desc">End-to-end retrieval system for financial-services policy Q&A. PDF ingestion, chunking, FAISS retrieval, citation-backed answers, evaluation harness, plus LangGraph and MCP tool-calling agent layer.</p>
+      <div class="project-metrics">
+        <div class="metric-row">
+          <span class="metric-key">POLICY CORPUS</span>
+          <span class="metric-val">4 FSI policy PDFs</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-key">RETRIEVAL STACK</span>
+          <span class="metric-val">chunks + FAISS index</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-key">AGENT LAYER</span>
+          <span class="metric-val">LangGraph + MCP tools</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-key">EVALUATION</span>
+          <span class="metric-val">12-query benchmark</span>
+        </div>
+      </div>
+      <div class="project-tags">
+        <span class="tag">RAG</span>
+        <span class="tag">FAISS</span>
+        <span class="tag">LangGraph</span>
+        <span class="tag">MCP</span>
+        <span class="tag">FSI</span>
+      </div>
+      <a href="https://github.com/anil10iitr/fsi-rag-policy-agent" class="project-link" target="_blank">View on GitHub →</a>
+    </div>
+
+    <!-- Project 5 -->
+    <div class="project-card">
+      <div class="project-num">05 / 05</div>
       <div class="project-icon">AI</div>
       <h3>Agentic AI Banking Blueprint</h3>
       <p class="project-desc">Reference architecture for governed Agentic AI workflows in banking and fintech. Includes workflow templates, policy guardrails, human escalation design, monitoring framework, and a lightweight readiness simulator.</p>
@@ -638,15 +675,15 @@
 <section class="impact-section" id="impact">
   <div class="section-tag">Documented Results</div>
   <h2>Business impact,<br>not just model metrics.</h2>
-  <p class="section-intro">Every number below is from a deployed production system â€” not a proof of concept.</p>
+  <p class="section-intro">Every number below is from a deployed production system — not a proof of concept.</p>
   <div class="impact-grid">
     <div class="impact-cell">
-      <div class="impact-num">â‚¹800M</div>
+      <div class="impact-num">₹800M</div>
       <div class="impact-desc">Higher credit card acquisition from revamped application scoring model</div>
       <div class="impact-company">Large Indian Private Bank</div>
     </div>
     <div class="impact-cell">
-      <div class="impact-num">â‚¹500M</div>
+      <div class="impact-num">₹500M</div>
       <div class="impact-desc">Annual collections improvement from credit card default prediction model</div>
       <div class="impact-company">Large Indian Private Bank</div>
     </div>
@@ -713,7 +750,7 @@
     <div class="skill-cell">
       <div class="skill-category">Leadership</div>
       <div class="skill-list">
-        <span class="skill-pill">Team Building (10â€“50 FTEs)</span>
+        <span class="skill-pill">Team Building (10–50 FTEs)</span>
         <span class="skill-pill">AI Center of Excellence</span>
         <span class="skill-pill">CDO / CRO Stakeholders</span>
         <span class="skill-pill">AI Strategy</span>
@@ -733,31 +770,31 @@
     <div class="exp-item">
       <div class="exp-left">
         <div class="exp-company">Grab Superapp</div>
-        <div class="exp-period">DEC 2025 â€” PRESENT</div>
+        <div class="exp-period">DEC 2025 — PRESENT</div>
       </div>
       <div class="exp-right">
         <div class="exp-role">Data Science India Head</div>
         <p class="exp-desc">Leading AI-powered loan recovery voice agent using LLM dialogue management, STT/TTS, and ML risk segmentation. $4M impact in first quarter. Deployed across 3 languages in Southeast Asia.</p>
-        <span class="exp-badge">$4M IMPACT Â· Q1 2026</span>
+        <span class="exp-badge">$4M IMPACT · Q1 2026</span>
       </div>
     </div>
 
     <div class="exp-item">
       <div class="exp-left">
         <div class="exp-company">IndusInd Bank</div>
-        <div class="exp-period">JUL 2023 â€” NOV 2025</div>
+        <div class="exp-period">JUL 2023 — NOV 2025</div>
       </div>
       <div class="exp-right">
         <div class="exp-role">Head of Data Science</div>
-        <p class="exp-desc">Built credit card acquisition scoring model (â‚¹800M impact), collections model with TransUnion (â‚¹500M annual), and integrated isolated data systems for â‚¹100M efficiency gain.</p>
-        <span class="exp-badge">â‚¹1.4B TOTAL IMPACT</span>
+        <p class="exp-desc">Built credit card acquisition scoring model (₹800M impact), collections model with TransUnion (₹500M annual), and integrated isolated data systems for ₹100M efficiency gain.</p>
+        <span class="exp-badge">₹1.4B TOTAL IMPACT</span>
       </div>
     </div>
 
     <div class="exp-item">
       <div class="exp-left">
         <div class="exp-company">Fortive Corporation</div>
-        <div class="exp-period">OCT 2021 â€” JUL 2023</div>
+        <div class="exp-period">OCT 2021 — JUL 2023</div>
       </div>
       <div class="exp-right">
         <div class="exp-role">Data Science Lead</div>
@@ -769,11 +806,11 @@
     <div class="exp-item">
       <div class="exp-left">
         <div class="exp-company">EXL Service</div>
-        <div class="exp-period">FEB 2018 â€” OCT 2021</div>
+        <div class="exp-period">FEB 2018 — OCT 2021</div>
       </div>
       <div class="exp-right">
         <div class="exp-role">Analytics Project Manager</div>
-        <p class="exp-desc">Built fraud detection model for top US bank â€” reduced false negative rate 5%, saving $3M annually. Advanced device-based feature engineering delivered 2% accuracy lift.</p>
+        <p class="exp-desc">Built fraud detection model for top US bank — reduced false negative rate 5%, saving $3M annually. Advanced device-based feature engineering delivered 2% accuracy lift.</p>
         <span class="exp-badge">$3M FRAUD SAVINGS</span>
       </div>
     </div>
@@ -789,7 +826,7 @@
     <div class="exp-item">
       <div class="exp-left">
         <div class="exp-company">Carnegie Mellon University</div>
-        <div class="exp-period">PITTSBURGH, USA Â· 2017</div>
+        <div class="exp-period">PITTSBURGH, USA · 2017</div>
       </div>
       <div class="exp-right">
         <div class="exp-role">MS, Data Analytics</div>
@@ -799,7 +836,7 @@
     <div class="exp-item">
       <div class="exp-left">
         <div class="exp-company">IIT Roorkee</div>
-        <div class="exp-period">INDIA Â· 2010</div>
+        <div class="exp-period">INDIA · 2010</div>
       </div>
       <div class="exp-right">
         <div class="exp-role">BTech, Metallurgical & Materials Engineering</div>
@@ -815,16 +852,16 @@
   <h2>Let's build something<br>that moves the needle.</h2>
   <p>US & Europe clients welcome. Specialising in credit risk, fraud, AI-powered collections, Agentic AI, and banking GenAI workflows. Remote-first, available immediately.</p>
   <div class="contact-links">
-    <a href="mailto:jhanwar.anil@gmail.com" class="contact-link">âœ‰ jhanwar.anil@gmail.com</a>
+    <a href="mailto:jhanwar.anil@gmail.com" class="contact-link">✉ jhanwar.anil@gmail.com</a>
     <a href="https://linkedin.com/in/aniljhanwar" class="contact-link" target="_blank">in LinkedIn</a>
-    <a href="https://github.com/anil10iitr" class="contact-link" target="_blank">âŒ¥ GitHub</a>
+    <a href="https://github.com/anil10iitr" class="contact-link" target="_blank">⌥ GitHub</a>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <span>ANIL JHANWAR · AI, BANKING AI & AGENTIC AI CONSULTANT</span>
-  <span>BENGALURU, INDIA Â· AVAILABLE GLOBALLY</span>
+  <span>BENGALURU, INDIA · AVAILABLE GLOBALLY</span>
 </footer>
 
 </body>
